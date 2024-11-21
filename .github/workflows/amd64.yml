@@ -5,7 +5,7 @@ on:
       docker_images:
         description: 'vmalert'
         required: true
-        default: 'victoriametrics/vmalert:v1.76.0'  # 设置默认的 Docker 镜像列表
+        default: 'jimmidyson/configmap-reload:v0.3.0'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
