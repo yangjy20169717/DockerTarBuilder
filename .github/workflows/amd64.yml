@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'vmalert'
+        description: 'domain'
         required: true
-        default: 'jimmidyson/configmap-reload:v0.3.0'  # 设置默认的 Docker 镜像列表
+        default: 'mouday/domain-admin:latest'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
