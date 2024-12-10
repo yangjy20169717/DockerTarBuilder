@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'domain'
+        description: 'postgres'
         required: true
-        default: 'mouday/domain-admin:latest'  # 设置默认的 Docker 镜像列表
+        default: 'postgres:10'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
