@@ -5,7 +5,7 @@ on:
       docker_images:
         description: 'ansible'
         required: true
-        default: 'alpine/ansible:2.18.1'  # 设置默认的 Docker 镜像列表
+        default: 'a79520/centos7.9:latest'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
