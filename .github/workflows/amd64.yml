@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'ansible'
+        description: 'centos'
         required: true
-        default: 'a79520/centos7.9:latest'  # 设置默认的 Docker 镜像列表
+        default: 'centos:centos7.9.2009'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
