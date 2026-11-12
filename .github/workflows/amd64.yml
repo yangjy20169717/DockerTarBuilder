@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'centos'
+        description: 'embeding'
         required: true
-        default: 'centos:centos7.9.2009'  # 设置默认的 Docker 镜像列表
+        default: 'cormegarepo/ollama:nomic-embed-text'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
