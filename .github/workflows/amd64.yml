@@ -5,7 +5,7 @@ on:
       docker_images:
         description: 'embeding'
         required: true
-        default: 'cormegarepo/ollama:nomic-embed-text'  # 设置默认的 Docker 镜像列表
+        default: 'opensandbox/egress:release-1.2.0'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
